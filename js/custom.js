@@ -64,6 +64,37 @@ $(document).ready(function () {
 
 // DROPDOWN
 
+
+// TEACHERS-STUDENTS-LIST
+
+$('.teachers-item a').click(function () {
+    event.stopPropagation();
+});
+
+$(document).ready(function () {
+    $('.teachers-item').click(function (event) {
+        event.stopPropagation(); // prevent bubbling
+
+        // Toggle active class on clicked item
+        $(this).toggleClass('active');
+
+        // Remove active class from all other items
+        $(".teachers-item").not(this).removeClass('active');
+
+        // Check if the clicked item is active
+        if ($(this).hasClass('active')) {
+            $('.students-list').show();
+            $('.no-data-wrap').hide();
+        } else {
+            $('.students-list').hide();
+            $('.no-data-wrap').show();
+        }
+    });
+});
+
+// TEACHERS-STUDENTS-LIST
+
+
 // TOGGLE SIDEBAR
 
 const menuBar = document.querySelector('#content nav .bx.bx-menu');

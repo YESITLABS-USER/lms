@@ -205,6 +205,62 @@
     #sidebar.hide~#content .assessment-result.baseline-top .sub-lessons-list-in .sub-lessons-list-in-ryt {
         margin-left: auto;
     }
+
+    /* PRINCIPAL */
+
+    .progress-grid.principal-progress .progress-grid-in {
+        margin-left: -20px;
+    }
+
+    .sub-lessons-list-in .manage-sub-cta {
+        flex-direction: row;
+        margin-left: 0;
+    }
+
+    #sidebar.hide~#content .sub-lessons-list-in .manage-sub-cta {
+        flex-direction: column;
+        margin-left: auto;
+    }
+
+    #sidebar.hide~#content .sub-lessons-list-in-ryt {
+        margin-left: 0;
+    }
+
+    .teachers-students-item ul {
+        gap: 10px;
+        flex-wrap: wrap;
+    }
+
+    .teachers-students-item h2 {
+        flex-wrap: wrap;
+        gap: 8px;
+    }
+
+    .students-src {
+        margin-left: auto !important;
+        width: 30%;
+    }
+
+    .personal-info form .form-group:last-child {
+        grid-row: auto;
+    }
+
+    .top-head.align-items-start .top-head-in {
+        width: auto;
+        margin-right: auto;
+    }
+
+    .lesson-data {
+        margin-right: auto;
+    }
+
+    .sub-lessons-list-in .manage-sub-cta {
+        flex-direction: column;
+        margin-left: 0;
+    }
+
+    /* PRINCIPAL */
+
 }
 
 @media only screen and (min-width:1280px) and (max-width:1365px) {
@@ -410,6 +466,139 @@
     .pro-wrap .row .col-lg-4 {
         width: 40%;
     }
+
+    /* TEACHER */
+
+    .top-head.align-items-start {
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .top-head.align-items-start .top-head-in {
+        width: 100%;
+    }
+
+    .top-head.align-items-start .influ-btns.mx-3 {
+        margin: 0 !important;
+    }
+
+    .back-btn.ms-auto {
+        margin-left: 0 !important;
+    }
+
+    .my-subjects .top-head .top-head-in {
+        width: auto;
+    }
+
+    .students-src {
+        width: 50%;
+    }
+
+    .sub-lessons-list-in .manage-sub-cta {
+        margin-left: auto;
+    }
+
+    .sub-lessons-list-in .manage-sub-cta .sub-lessons-list-in-ryt {
+        width: auto;
+    }
+
+    .subjects-lesson-progress.mt-0.course-management .manage-sub-item.sub-lessons-list-in.mb-0 {
+        flex-direction: column;
+    }
+
+    .subjects-lesson-progress.student-mng .my-subjects-head h3 {
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+        a.add-cta {
+            background: linear-gradient(92.08deg, #4126A8 12.97%, #1B0866 103.35%);
+            margin-left: 0;
+        }
+    }
+
+    .manage-sub-item.sub-lessons-list-in {
+        align-items: center;
+    }
+
+    .sub-pro.mb-0 {
+        gap: 10px;
+    }
+
+    .sub-pro-grp {
+        width: 80%;
+    }
+
+    .less-details-list {
+        width: 40%;
+        position: sticky;
+        top: 20px;
+        height: 100%;
+        z-index: 9;
+    }
+
+    .my-subjects.mt-0 .manage-sub-grid .manage-sub-item.sub-lessons-list-in.mb-0 {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    /* TEACHER */
+
+    /* PRINCIPAL */
+
+    .progress-grid.principal-progress .progress-grid-in {
+        margin-left: -20px;
+    }
+
+    .sub-lessons-list-in .manage-sub-cta {
+        flex-direction: row;
+        margin-left: 0;
+    }
+
+    #sidebar.hide~#content .sub-lessons-list-in .manage-sub-cta {
+        flex-direction: column;
+        margin-left: auto;
+    }
+
+    #sidebar.hide~#content .sub-lessons-list-in-ryt {
+        margin-left: 0;
+    }
+
+    .teachers-students-item ul {
+        gap: 10px;
+        flex-wrap: wrap;
+    }
+
+    .teachers-students-item h2 {
+        flex-wrap: wrap;
+        gap: 8px;
+    }
+
+    .students-src {
+        margin-left: auto !important;
+        width: 30%;
+    }
+
+    .personal-info form .form-group:last-child {
+        grid-row: auto;
+    }
+
+    .top-head.align-items-start .top-head-in {
+        width: auto;
+        margin-right: auto;
+    }
+
+    .lesson-data {
+        margin-right: auto;
+    }
+
+    .sub-lessons-list-in .manage-sub-cta {
+        flex-direction: column;
+        margin-left: 0;
+    }
+
+    /* PRINCIPAL */
 }
 
 @media only screen and (min-width:1000px) and (max-width:1279px) {
@@ -623,6 +812,124 @@
     .pro-wrap .row>* {
         width: 50%;
     }
+
+    /* TEACHER */
+
+    .top-head.align-items-start {
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .top-head.align-items-start .top-head-in {
+        width: 100%;
+    }
+
+    .top-head.align-items-start .influ-btns.mx-3 {
+        margin: 0 !important;
+    }
+
+    .back-btn.ms-auto {
+        margin-left: 0 !important;
+    }
+
+    .my-subjects .top-head .top-head-in {
+        width: auto;
+    }
+
+    .students-src {
+        width: 50%;
+    }
+
+    .sub-lessons-list-in .manage-sub-cta {
+        margin-left: auto;
+    }
+
+    .sub-lessons-list-in .manage-sub-cta .sub-lessons-list-in-ryt {
+        width: auto;
+    }
+
+    .subjects-lesson-progress.mt-0.course-management .manage-sub-item.sub-lessons-list-in.mb-0 {
+        flex-direction: column;
+    }
+
+    .subjects-lesson-progress.student-mng .my-subjects-head h3 {
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+        a.add-cta {
+            background: linear-gradient(92.08deg, #4126A8 12.97%, #1B0866 103.35%);
+            margin-left: 0;
+        }
+    }
+
+    .manage-sub-item.sub-lessons-list-in {
+        align-items: center;
+    }
+
+    .sub-pro.mb-0 {
+        gap: 10px;
+    }
+
+    .sub-pro-grp {
+        width: 80%;
+    }
+
+    .less-details-list {
+        width: 40%;
+        position: sticky;
+        top: 20px;
+        height: 100%;
+        z-index: 9;
+    }
+
+    .my-subjects.mt-0 .manage-sub-grid .manage-sub-item.sub-lessons-list-in.mb-0 {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    /* TEACHER */
+
+    /* PRINCIPAL */
+
+    .progress-grid.principal-progress .progress-grid-in {
+        margin-left: 0;
+    }
+
+    .sub-lessons-list-in .manage-sub-cta {
+        flex-direction: row;
+        margin-left: 0;
+    }
+
+    #sidebar.hide~#content .sub-lessons-list-in .manage-sub-cta {
+        flex-direction: column;
+        margin-left: auto;
+    }
+
+    #sidebar.hide~#content .sub-lessons-list-in-ryt {
+        margin-left: 0;
+    }
+
+    .teachers-students-item ul {
+        gap: 10px;
+        flex-wrap: wrap;
+    }
+
+    .teachers-students-item h2 {
+        flex-wrap: wrap;
+        gap: 8px;
+    }
+
+    .students-src {
+        margin-left: 0 !important;
+    }
+
+    .personal-info form .form-group:last-child {
+        grid-row: auto;
+    }
+
+    /* PRINCIPAL */
 }
 
 @media only screen and (min-width:912px) and (max-width:999px) {
@@ -802,6 +1109,107 @@
     .sub-lessons-list-in.drop-btn .sub-lessons-list-in-ryt span {
         display: none;
     }
+
+    /* TEACHER */
+
+    .top-head.align-items-start {
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .top-head-in {
+        width: 100%;
+    }
+
+    .top-head.align-items-start .influ-btns.mx-3 {
+        margin: 0 !important;
+    }
+
+    .back-btn.ms-auto {
+        margin-left: 0 !important;
+    }
+
+    .my-subjects .top-head .top-head-in {
+        width: auto;
+    }
+
+    .students-src {
+        width: 50%;
+    }
+
+    .sub-lessons-list-in .manage-sub-cta {
+        margin-left: 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+
+    .sub-lessons-list-in .manage-sub-cta .sub-lessons-list-in-ryt {
+        width: auto;
+    }
+
+    .subjects-lesson-progress.mt-0.course-management .manage-sub-item.sub-lessons-list-in.mb-0 {
+        flex-direction: column;
+    }
+
+    .subjects-lesson-progress.student-mng .my-subjects-head h3 {
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+        a.add-cta {
+            background: linear-gradient(92.08deg, #4126A8 12.97%, #1B0866 103.35%);
+            margin-left: 0;
+        }
+    }
+
+    .manage-sub-item.sub-lessons-list-in {
+        flex-direction: column;
+    }
+
+    .sub-pro.mb-0 {
+        flex-wrap: wrap;
+        justify-content: flex-end;
+        gap: 10px;
+    }
+
+    .sub-pro-grp {
+        width: 80%;
+    }
+
+    .sub-pro.mb-0 ul li.me-3 {
+        margin-left: auto;
+        margin-right: 0 !important;
+    }
+
+    .less-details-list {
+        width: 40%;
+        position: sticky;
+        top: 20px;
+        height: 100%;
+        z-index: 9;
+    }
+
+    /* TEACHER */
+
+    /* PRINCIPAL */
+
+    .progress-grid.principal-progress .progress-grid-in {
+        margin-left: 0;
+    }
+
+    .sub-detail-top ul {
+        margin-right: auto;
+    }
+
+    .students-src {
+        margin-left: 0 !important;
+    }
+
+    .personal-info form .form-group:last-child {
+        grid-row: auto;
+    }
+
+    /* PRINCIPAL */
 }
 
 @media only screen and (min-width:800px) and (max-width:911px) {
@@ -955,6 +1363,107 @@
     #sidebar.hide~#content .personal-info form {
         grid-template-columns: 1fr 1fr;
     }
+
+    /* TEACHER */
+
+    .top-head.align-items-start {
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .top-head-in {
+        width: 100%;
+    }
+
+    .top-head.align-items-start .influ-btns.mx-3 {
+        margin: 0 !important;
+    }
+
+    .back-btn.ms-auto {
+        margin-left: 0 !important;
+    }
+
+    .my-subjects .top-head .top-head-in {
+        width: auto;
+    }
+
+    .students-src {
+        width: 50%;
+    }
+
+    .sub-lessons-list-in .manage-sub-cta {
+        margin-left: 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+
+    .sub-lessons-list-in .manage-sub-cta .sub-lessons-list-in-ryt {
+        width: auto;
+    }
+
+    .subjects-lesson-progress.mt-0.course-management .manage-sub-item.sub-lessons-list-in.mb-0 {
+        flex-direction: column;
+    }
+
+    .subjects-lesson-progress.student-mng .my-subjects-head h3 {
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+        a.add-cta {
+            background: linear-gradient(92.08deg, #4126A8 12.97%, #1B0866 103.35%);
+            margin-left: 0;
+        }
+    }
+
+    .manage-sub-item.sub-lessons-list-in {
+        flex-direction: column;
+    }
+
+    .sub-pro.mb-0 {
+        flex-wrap: wrap;
+        justify-content: flex-end;
+        gap: 10px;
+    }
+
+    .sub-pro-grp {
+        width: 80%;
+    }
+
+    .sub-pro.mb-0 ul li.me-3 {
+        margin-left: auto;
+        margin-right: 0 !important;
+    }
+
+    .less-details-list {
+        width: 40%;
+        position: sticky;
+        top: 20px;
+        height: 100%;
+        z-index: 9;
+    }
+
+    /* TEACHER */
+
+    /* PRINCIPAL */
+
+    .progress-grid.principal-progress .progress-grid-in {
+        margin-left: 0;
+    }
+
+    .sub-detail-top ul {
+        margin-right: auto;
+    }
+
+    .students-src {
+        margin-left: 0 !important;
+    }
+
+    .personal-info form .form-group:last-child {
+        grid-row: auto;
+    }
+
+    /* PRINCIPAL */
 }
 
 @media only screen and (min-width:768px) and (max-width:799px) {
@@ -1108,7 +1617,110 @@
     #sidebar.hide~#content .personal-info form {
         grid-template-columns: 1fr 1fr;
     }
+
+    /* TEACHER */
+
+    .top-head.align-items-start {
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .top-head-in {
+        width: 100%;
+    }
+
+    .top-head.align-items-start .influ-btns.mx-3 {
+        margin: 0 !important;
+    }
+
+    .back-btn.ms-auto {
+        margin-left: 0 !important;
+    }
+
+    .my-subjects .top-head .top-head-in {
+        width: auto;
+    }
+
+    .students-src {
+        width: 50%;
+    }
+
+    .sub-lessons-list-in .manage-sub-cta {
+        margin-left: 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+
+    .sub-lessons-list-in .manage-sub-cta .sub-lessons-list-in-ryt {
+        width: auto;
+    }
+
+    .subjects-lesson-progress.mt-0.course-management .manage-sub-item.sub-lessons-list-in.mb-0 {
+        flex-direction: column;
+    }
+
+    .subjects-lesson-progress.student-mng .my-subjects-head h3 {
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+        a.add-cta {
+            background: linear-gradient(92.08deg, #4126A8 12.97%, #1B0866 103.35%);
+            margin-left: 0;
+        }
+    }
+
+    .manage-sub-item.sub-lessons-list-in {
+        flex-direction: column;
+    }
+
+    .sub-pro.mb-0 {
+        flex-wrap: wrap;
+        justify-content: flex-end;
+        gap: 10px;
+    }
+
+    .sub-pro-grp {
+        width: 80%;
+    }
+
+    .sub-pro.mb-0 ul li.me-3 {
+        margin-left: auto;
+        margin-right: 0 !important;
+    }
+
+    .less-details-list {
+        width: 40%;
+        position: sticky;
+        top: 20px;
+        height: 100%;
+        z-index: 9;
+    }
+
+    /* TEACHER */
+
+    /* PRINCIPAL */
+
+    .progress-grid.principal-progress .progress-grid-in {
+        margin-left: 0;
+    }
+
+    .sub-detail-top ul {
+        margin-right: auto;
+    }
+
+    .students-src {
+        margin-left: 0 !important;
+    }
+
+    .personal-info form .form-group:last-child {
+        grid-row: auto;
+    }
+
+    /* PRINCIPAL */
 }
+
+/* ----- */
 
 .chart-bar-grp::-webkit-scrollbar {
     height: 10px;
